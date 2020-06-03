@@ -71,8 +71,8 @@ a:hover {text-decoration:none ; color:#111}
 .menu_depth1{}
 .menu_depth1 .title{height:38px;}
 .menu_depth1 ul{margin-left:6px;}
-.menu_depth1 ul li{line-height:40px;border-bottom:solid 2px #dcdcdc;padding-left:8px;margin-right:30px;position:relative;}
-.menu_depth1 ul li:first-child{border-top:solid 2px #dcdcdc;}
+.menu_depth1 ul li{line-height:40px;border-bottom:solid 1px #dcdcdc;padding-left:8px;margin-right:30px;position:relative;}
+.menu_depth1 ul li:first-child{border-top:solid 1px #dcdcdc;}
 .menu_depth1 > ul > li:last-child{margin-bottom:49px;}
 .menu_depth1 ul ul li:last-child{border-bottom:none;}
 .menu_depth1 ul ul li{margin:0;border-bottom:solid 1px #dcdcdc}
