@@ -84,17 +84,17 @@ a:hover {text-decoration:none ; color:#111}
 .menu_depth1 ul li .plus_btn:before{content:'';display:block;clear:both;position:absolute;top:6px;right:9px;width:1px;height:7px;background-color:#333}
 .menu_depth1 ul li .plus_btn:after{content:'';display:block;clear:both;position:absolute;top:9px;right:6px;width:7px;height:1px;background-color:#333}
 
-.product_list_box{width:100%;padding-left:300px;position:relative;box-sizing:border-box;}
-.product_list_box .product_banner{}
-.product_list_box .product_banner img{width:100%;}
-.product_list_box .product_list{}
-.product_list_box .product_list .product_category{float:left;width:100%;margin-top:80px;}
-.product_list_box .product_list .product_category:after{content:'';display:block;clear:both;}
-.product_list_box .product_list .product_category .title{float:left;font-weight:700;line-height:24px;}
-.product_list_box .product_list .product_category ul{float:right;}
-.product_list_box .product_list .product_category ul li{font-size:12px;float:left;line-height:24px;}
-.product_list_box .product_list .product_category ul li:after{content:'/';display:inline-block;padding:0 10px;}
-.product_list_box .product_list .product_category ul li:last-child:after{display:none;}
+.product_content_box{width:100%;padding-left:300px;position:relative;box-sizing:border-box;}
+.product_content_box .product_banner{}
+.product_content_box .product_banner img{width:100%;}
+.product_content_box .product_list{}
+.product_content_box .product_list .product_category{float:left;width:100%;margin-top:80px;}
+.product_content_box .product_list .product_category:after{content:'';display:block;clear:both;}
+.product_content_box .product_list .product_category .title{float:left;font-weight:700;line-height:24px;}
+.product_content_box .product_list .product_category ul{float:right;}
+.product_content_box .product_list .product_category ul li{font-size:12px;float:left;line-height:24px;}
+.product_content_box .product_list .product_category ul li:after{content:'/';display:inline-block;padding:0 10px;}
+.product_content_box .product_list .product_category ul li:last-child:after{display:none;}
 
 .product_list_box{float:left;margin-top:40px;margin:40px -.5% 0 -.5%}
 .product_list_box li{float:left;width:32.3333%;position:relative;margin:0 .5% 1% .5%}
