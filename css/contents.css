@@ -26,7 +26,7 @@ a:hover {text-decoration:none ; color:#111}
 .center_text p {text-align:center;padding-top:15px;}
 .center_text p:first-child{font-size:20px;padding-top:0;padding-bottom:15px;}
 .center_text img{padding-top:15px;}
-.center_banner{;padding-top:50px;padding-bottom:100px;font-size:14px;}
+.center_banner{padding-top:50px;padding-bottom:100px;font-size:14px;}
 .center_banner:after{content:'';display:block;clear:both;}
 .center_banner ul{padding-right:70px;}
 .center_banner .list{width:33.333333%;float:left;box-sizing:border-box;padding-left:70px;}
@@ -37,16 +37,19 @@ a:hover {text-decoration:none ; color:#111}
 .center_banner .text p{padding-top:10px;}
 .center_banner .text p:first-child span{font-weight:normal;}
 .center_banner .text p:first-child{font-weight:700;padding-top:40px;}
+
 .flag_banner{background-image:url(../img/flagbanner.jpg);background-size:cover;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;font-size:14px;}
 .flag_banner p{text-align:center;padding-top:15px;}
 .flag_banner p:first-child{font-weight:700;padding-top:100px;font-size:18px;}
 .flag_banner p:last-child{padding-bottom:100px;}
+
 .last_banner{width:100%;font-size:14px;}
 .last_banner:after{content:'';display:block;clear:both;}
 .last_banner .list{width:50%;float:left;box-sizing:border-box;position:relative;}
 .last_banner .list img{float:left;width:100%;}
 .last_banner .list_text_1{position:absolute;color:#fff;text-align:right;top:90%;right:3%;font-weight:700;}
 .last_banner .list_text_2{position:absolute;color:#fff;text-align:left;top:90%;left:3%;font-weight:700;}
+
 .footer{float:left;width:100%;padding:65px 55px;background-color:#fff;position:relative;box-sizing:border-box;background-color:#f8f8f8;font-size:14px;}
 
 .infor_box dl{float:left;width:23%;}
@@ -93,20 +96,20 @@ a:hover {text-decoration:none ; color:#111}
 .product_list_box .product_list .product_category ul li:after{content:'/';display:inline-block;padding:0 10px;}
 .product_list_box .product_list .product_category ul li:last-child:after{display:none;}
 
-.list_box{float:left;margin-top:40px;margin:40px -.5% 0 -.5%}
-.list_box li{float:left;width:32.3333%;position:relative;margin:0 .5% 1% .5%}
-.list_box li .icon{position:absolute;top:10px;right:10px;z-index:20;}
-.list_box li .product_infor{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgb(0,0,0,.4);}
-.list_box li .product_infor a{display:table;width:100%;height:100%}
-.list_box li .product_infor a .product_name{display:table-cell;vertical-align:bottom;font-size:12px;font-weight:500;padding:20px}
-.list_box li .product_infor a .product_name p{line-height:18px;}
-.list_box li .product_infor a .product_name p,
-.list_box li .product_infor a .product_name p span{color:#fff;}
-.list_box li .product_infor a .product_name p:first-child + p{margin-top:20px;}
-.list_box li .product_infor a .product_name p:first-child + p + p + p{margin-top:20px;}
-.list_box li .product_img{}
-.list_box li .product_img img{width:100%;}
-.list_box li .icon,
-.list_box li .product_infor{transition:.6s;opacity:0;}
-.list_box li:hover .icon,
-.list_box li:hover .product_infor{opacity:1;}
+.product_list_box{float:left;margin-top:40px;margin:40px -.5% 0 -.5%}
+.product_list_box li{float:left;width:32.3333%;position:relative;margin:0 .5% 1% .5%}
+.product_list_box li .icon{position:absolute;top:10px;right:10px;z-index:20;}
+.product_list_box li .product_infor{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgb(0,0,0,.4);}
+.product_list_box li .product_infor a{display:table;width:100%;height:100%}
+.product_list_box li .product_infor a .product_name{display:table-cell;vertical-align:bottom;font-size:12px;font-weight:500;padding:20px}
+.product_list_box li .product_infor a .product_name p{line-height:18px;}
+.product_list_box li .product_infor a .product_name p,
+.product_list_box li .product_infor a .product_name p span{color:#fff;}
+.product_list_box li .product_infor a .product_name p:first-child + p{margin-top:20px;}
+.product_list_box li .product_infor a .product_name p:first-child + p + p + p{margin-top:20px;}
+.product_list_box li .product_img{}
+.product_list_box li .product_img img{width:100%;}
+.product_list_box li .icon,
+.product_list_box li .product_infor{transition:.6s;opacity:0;}
+.product_list_box li:hover .icon,
+.product_list_box li:hover .product_infor{opacity:1;}
