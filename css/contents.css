@@ -39,7 +39,8 @@ a:hover {text-decoration:none ; color:#111}
 .center_banner .text p:first-child{font-weight:700;padding-top:40px;}
 
 .flag_banner{background-image:url(../img/flagbanner.jpg);background-size:cover;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;font-size:14px;}
-.flag_banner p{text-align:center;padding-top:15px;}
+.flag_banner p{text-align:center;padding-top:15px;color:#fff;}
+.flag_banner p .en{color:#fff;}
 .flag_banner p:first-child{font-weight:700;padding-top:100px;font-size:18px;}
 .flag_banner p:last-child{padding-bottom:100px;}
 
@@ -50,7 +51,7 @@ a:hover {text-decoration:none ; color:#111}
 .last_banner .list_text_1{position:absolute;color:#fff;text-align:right;top:90%;right:3%;font-weight:700;}
 .last_banner .list_text_2{position:absolute;color:#fff;text-align:left;top:90%;left:3%;font-weight:700;}
 
-.footer{float:left;width:100%;padding:65px 55px;background-color:#fff;position:relative;box-sizing:border-box;background-color:#f8f8f8;font-size:14px;}
+.footer{float:left;width:100%;padding:54px 70px;background-color:#fff;position:relative;box-sizing:border-box;background-color:#f8f8f8;font-size:14px;}
 
 .infor_box dl{float:left;width:23%;}
 .infor_box dl dt{margin-bottom:19px;font-weight:700;}
@@ -58,15 +59,22 @@ a:hover {text-decoration:none ; color:#111}
 .infor_box dl:last-child{width:31%;}
 
 .infor_box{float:left;width:60%;box-sizing:border-box;}
-.address{float:left;width:37%;box-sizing:border-box;margin-left:3%;}
 
+
+.address{float:left;width:37%;box-sizing:border-box;margin-left:3%;}
 .address dl{}
 .address dl dt{margin-bottom:19px;font-weight:700;}
 .address dl dd{font-size:14px;line-height:20px;color:#444;}
+
+.address .pay_img{padding-top:10px;display:inline-block;}
+.address .pay_img img {width:30px;}
+
+
 .infor_flag{padding-top:15px;font-size:16px;font-weight:700;}
 
+
 .quickmenu{position:fixed;right:25px;bottom:20px;z-index:50;}
-.quickmenu ul li{list-style:none;padding:5px;}
+.quickmenu ul li{list-style:none;padding:5px;}:#fff;
 
 /* 제품 리스트 페이지 */
 .product_contents{margin-top:75px;padding:0 70px;box-sizing:border-box;}
