@@ -107,9 +107,24 @@ a:hover {text-decoration:none ; color:#111}
 .product_list_box li .product_infor a .product_name p span{color:#fff;}
 .product_list_box li .product_infor a .product_name p:first-child + p{margin-top:20px;}
 .product_list_box li .product_infor a .product_name p:first-child + p + p + p{margin-top:20px;}
+
+.product_list_box li .product_infor a .product_name .price{text-decoration:line-through;}
+
 .product_list_box li .product_img{}
 .product_list_box li .product_img img{width:100%;}
 .product_list_box li .icon,
 .product_list_box li .product_infor{transition:.6s;opacity:0;}
+.product_list_box li .icon div a img {width:20px;}
 .product_list_box li:hover .icon,
 .product_list_box li:hover .product_infor{opacity:1;}
+
+
+.next_page{width:100%;float:left;text-align:center;padding-top:30px;padding-bottom:60px;line-height: 20px;font-size:12px;}
+.next_page a{font-family:'Poppins',sans-serif;}
+.next_page a.first{padding-right:50px;margin-right:20px;padding-bottom:2px;color:#777;font-weight:700;font-size:12px;border-bottom:1px solid #777;}
+.next_page a.prev{padding-right:20px;margin-right:10px;padding-bottom:2px;color:#111;font-weight:400;font-size:12px;border-bottom:1px solid #111;}
+.next_page ul{display:inline-block;padding-left:15px;}
+.next_page li{display: inline-block;margin-left:15px;}
+.next_page li:last-child{margin-right:30px;}
+.next_page a.next{padding-left:20px;margin-left:20px;padding-bottom:2px;color:#111;font-weight:400;font-size:12px;border-bottom:1px solid #111;}
+.next_page a.last{padding-left:50px;margin-left:10px;padding-bottom:2px;color:#777;font-weight:700;font-size:12px;border-bottom:1px solid #777;}
