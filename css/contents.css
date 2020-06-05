@@ -77,6 +77,7 @@ a:hover {text-decoration:none ; color:#111}
 .quickmenu ul li{list-style:none;padding:5px;}:#fff;
 
 /* 제품 리스트 페이지 */
+.container{width:100%;padding-top:70px;padding-left:70px;}
 .product_contents{margin-top:75px;padding:0 70px;box-sizing:border-box;}
 .product_contents .side_menu{float:left;width:300px;position:relative;z-index:20;}
 .menu_depth1{}
