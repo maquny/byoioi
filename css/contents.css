@@ -79,7 +79,19 @@ a:hover {text-decoration:none ; color:#111}
 /* 제품 리스트 페이지 */
 .container{width:100%;padding-top:70px;padding-left:70px;}
 .product_contents{margin-top:75px;padding:0 70px;box-sizing:border-box;}
-.product_contents .side_menu{float:left;width:300px;position:relative;z-index:20;}
+.side_menu{float:left;width:300px;position:relative;z-index:20;}
+.product_contents .side_menu{width:300px;}
+.lookbook_contents{position:relative;}
+.lookbook_contents .side_menu{position:absolute;top:75px;left:70px;}
+.swiper-container.lookbook_collection{width:100%;height:100%}
+.swiper-container.lookbook_collection .swiper-slide{text-align:center;font-size:18px;background:#fff;width:60%;display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center}
+.swiper-container.lookbook_collection .swiper-slide:nth-child(1) {margin-left:500px;}
+.swiper-container.lookbook_collection .swiper-slide .name{font-family:'Poppins',sans-serif;position:absolute;top:50px;left:0}
+.swiper-container.lookbook_collection .swiper-slide .img{padding:50px 20px;box-sizing:border-box;}
+.swiper-container.lookbook_collection .swiper-slide .img img{height:100%;}
+.progress_cont{width:100%;height:5px;position:relative;}
+.progress_cont .progress_bar{height:5px;background-color:#000;position:absolute;top:0;left:0;width:0%;}
+
 .menu_depth1{}
 .menu_depth1 .title{height:38px;}
 .menu_depth1 ul{margin-left:6px;}
