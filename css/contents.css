@@ -165,15 +165,6 @@ a:hover {text-decoration:none ; color:#111}
 
 
 
-
-/* 룩북 */
-.lookbook{overflow:hidden;}
-.horizon{width:310%;z-index:5;}
-.horizon ul {display:inline-block;}
-.horizon ul li{position:relative;display:inline-block;text-align:right;list-style:none;height:90vh;margin:0 0 0 8%;vertical-align:middle;}
-.scroll{position:fixed;}
-
-
 /* 회원가입 */
 .account{text-align:center;padding-top:100px;padding-bottom:100px;}
 .account .new_account p{padding-bottom:15px;}
