@@ -7,12 +7,17 @@
 	<link rel="shortcut icon" href="../img/byoioi_favicon.ico" />
 	<link href="../css/common.css" rel="stylesheet">
 
+
+
 	<script src="../js/jquery-2.1.4.min.js"></script>
 	<script src="../js/common.js"></script><!-- 이벤트 제어 ui -->
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.16/angular.min.js"></script>
+
+	<script type="text/javascript" src="../jInvertScroll-master/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="../jInvertScroll-master/src/jquery.jInvertScroll.js"></script>
 
 </head>
  
@@ -62,34 +67,56 @@
 				</div>
 
 				<div class="menu_depth1">
-					<div class="title en"><a href="../html/52_collabo.html">COLLABORATION</a></div>
+					<a href="../html/52_collabo.html"><div class="title en">COLLABORATION</div></a>
 				</div>
 				<div class="menu_depth1">
 					<div class="title en">LOOKBOOK</div>
+					<ul>
+						<li>
+							<a href="">2020</a>
+							<ul>
+								<li><a herf="">20 5.B.O X Mark Gonzales</a></li>
+								<li>20 5.B.O X EXCELSIOR</li>
+								<li>20 SUMMER</li>
+								<li>20 SPRING</li>
+								<li>20 Disney</li>
+							</ul>
+						</li>
+						<li>
+							<a href="">2019</a>
+							<ul>
+								<li><a herf="">19 HEAVEY WINTER</a></li>
+								<li>19 WINTER</li>
+								<li>19 FALL</li>
+								<li>19 SUMMER(ORIGINAL SLIDER)</li>
+								<li>19 5.B.O X HEAD</li>
+								<li>19 SUMMER</li>
+								<li>19 5.B.O X KIRSH</li>
+								<li>19 SPRING</li>
+							</ul>
+						</li>
+					</ul>
 				</div>
 				<div class="menu_depth1">
 					<div class="title en">PRESS</div>
 				</div>
 			</div>
-
-		<div class="collabo_banner">
-			<ul>
-				<li class="collabo_banner_img">
-					<a href="../html/52_list_type2.html"><img src="../img/collabo_banner_01.png"></a>
-					<div class="collabo_banner_text en">20 5252 BY O!Oi X BABY-G</div>
-				</li>
-
-				<li class="collabo_banner_img">
-					<a href=""><img src="../img/collabo_banner_02.png"></a>
-					<div class="collabo_banner_text en">20 5252 BY O!Oi X MARK GONZALES</div>
-				</li>
-
-				<li class="collabo_banner_img">
-					<a href=""><img src="../img/collabo_banner_03.png"></a>
-					<div class="collabo_banner_text en">20 5252 BY O!Oi X EXCELSIOR</div>
-				</li>
-			</ul>
-		</div>
+			<div class="lookbook">
+				<div class="horizon scroll">
+					<ul>
+						<li>
+							<a herf=""><span>20 5.B.O X MG</span><img src="../img/lookbook_img_01.jpg" alt=""></a>
+						</li>
+						<li>
+							<a herf=""><span>20 5.B.O X MG</span><img src="../img/lookbook_img_02.jpg" alt=""></a>
+						</li>
+						<li>
+							<a herf=""><span>20 5.B.O X MG</span><img src="../img/lookbook_img_03.jpg" alt=""></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+	
 </div>
 
 <div id="footer"></div>
@@ -105,8 +132,30 @@
 </div>
 
 <script>
+
+(function($) {
+        var elem = $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
+            {
+            height: 6000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
+                console.log(percent);
+            }
+        });
+
+        $(window).resize(function() {
+          if ($(window).width() <= 768) {
+            elem.destroy();
+          }
+          else {
+            elem.reinitialize();
+          }
+        });
+    }(jQuery));
+
 	document.getElementById("header").innerHTML='<object type="text/html" style="float:left;width:100%;height:60px;border-bottom:solid 1px #000" data="header.html"></object>';
 	document.getElementById("footer").innerHTML='<object type="text/html" style="float:left;width:100%;height:270px;border-bottom:solid 1px #000" data="footer.html"></object>';
+
+
 </script>
 
 </body>

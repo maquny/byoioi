@@ -93,12 +93,16 @@ a:hover {text-decoration:none ; color:#111}
 .menu_depth1 ul li .plus_btn:before{content:'';display:block;clear:both;position:absolute;top:6px;right:9px;width:1px;height:7px;background-color:#333}
 .menu_depth1 ul li .plus_btn:after{content:'';display:block;clear:both;position:absolute;top:9px;right:6px;width:7px;height:1px;background-color:#333}
 
-.producu_content{width:100%;}
+
+.product_content_box2 .product_list .product_category{float:left;width:100%;}
+
+
+.product_content{width:100%;}
 .product_content_box{width:100%;padding-left:300px;position:relative;box-sizing:border-box;}
 .product_content_box .product_banner{}
-.product_content_box .product_banner img{width:100%;}
+.product_content_box .product_banner img{width:100%;padding-bottom:80px;}
 .product_content_box .product_list{}
-.product_content_box .product_list .product_category{float:left;width:100%;margin-top:80px;}
+.product_content_box .product_list .product_category{float:left;width:100%;}
 .product_content_box .product_list .product_category:after{content:'';display:block;clear:both;}
 .product_content_box .product_list .product_category .title{float:left;font-weight:700;line-height:24px;}
 .product_content_box .product_list .product_category ul{float:right;}
@@ -150,9 +154,12 @@ a:hover {text-decoration:none ; color:#111}
 
 
 
-
-
-
+/* 룩북 */
+.lookbook{overflow:hidden;}
+.horizon{width:310%;z-index:5;}
+.horizon ul {display:inline-block;}
+.horizon ul li{position:relative;display:inline-block;text-align:right;list-style:none;height:90vh;margin:0 0 0 8%;vertical-align:middle;}
+.scroll{position:fixed;}
 
 
 
