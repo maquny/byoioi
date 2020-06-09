@@ -162,8 +162,9 @@ a:hover {text-decoration:none ; color:#111}
 .scroll{position:fixed;}
 
 
-
-
+/* 회원가입 */
+.account{text-align:center;padding-top:100px;padding-bottom:100px;}
+.account .new_account p{padding-bottom:15px;}
 
 
 
