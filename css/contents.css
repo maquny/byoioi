@@ -165,17 +165,24 @@ a:hover {text-decoration:none ; color:#111}
 
 
 
-/* 회원가입 */
-.account{text-align:center;padding-top:100px;padding-bottom:100px;}
-.account .new_account p{padding-bottom:15px;}
+/* 프레스 페이지*/
+
+.press_list{margin-top:100px;margin-left:70px;margin-right:70px;}
+.press_list_title{font-size:20px;font-weight:700;margin-bottom:45px;border-bottom:solid 1px #111;padding-bottom:30px;}
+.press_list ul {width:100%;}
+.press_list ul li{float:left;width:33%;margin-bottom:45px;margin-right:5px;}
+.press_imgtext_list:after{content:'';display:block;clear:both;}
+.press_list_img img{width:100%;}
+.press_list_text{margin-top:10px;}
 
 
-
-
-
-
-
-
+.press_next_page{width:100%;float:left;text-align:left;padding-left:70px;line-height:20px;padding-bottom:50px;padding-top:50px;}
+.press_next_page a{font-family:'Poppins',sans-serif;}
+.press_next_page a.press_prev{padding-right:20px;margin-right:20px;padding-bottom:2px;color:#111;font-weight:400;font-size:12px;border-bottom:1px solid #111;}
+.press_next_page a.press_next{padding-left:20px;margin-left:20px;padding-bottom:2px;color:#111;font-weight:400;font-size:12px;border-bottom:1px solid #111;}
+.press_next_page ul{display:inline-block;padding-left:15px;}
+.press_next_page li{display: inline-block;margin-left:15px;}
+.press_next_page li:last-child{margin-right:30px;}
 
 
 
