@@ -187,13 +187,15 @@ a:hover {text-decoration:none ; color:#111}
 
 
 /*스탁리스트 페이지*/
-.stockist_banner{}
+
+.stockist_list:after{content:'';display:block;clear:both;}
+.stockist_banner{width:100%;}
 .stockist_title{text-align:center;padding-top:100px;padding-bottom:50px;font-size:20px;}
 .stockist_mini_title{text-align:center;padding-bottom:50px;}
 
 
 .stockist.swiper-container{width:49%;float:left;}
-.stockist_text{float:left;width:50%;background-color:#ddd;padding:40px;box-sizing:border-box;}
+.stockist_text{float:left;width:51%;background-color:#ddd;padding:60px;box-sizing:border-box;}
 .stockist_text p{margin-bottom:10px;}
 .stockist_text p:first-child{font-size:18px;padding-bottom:20px;font-weight:700;}
 .stockist_text p:last-child{margin-top:30px;}
@@ -203,6 +205,7 @@ a:hover {text-decoration:none ; color:#111}
 
 .stockist{}
 .stockist img{width:100%;}
+
 
 
 
