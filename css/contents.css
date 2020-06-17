@@ -187,15 +187,15 @@ a:hover {text-decoration:none ; color:#111}
 
 
 /*스탁리스트 페이지*/
-
+.stockist_list{padding-bottom:100px;}
 .stockist_list:after{content:'';display:block;clear:both;}
 .stockist_banner{width:100%;}
 .stockist_title{text-align:center;padding-top:100px;padding-bottom:50px;font-size:20px;}
-.stockist_mini_title{text-align:center;padding-bottom:50px;}
+.stockist_mini_title{text-align:center;padding-bottom:50px;font-weight:700;font-size:20px;}
 
 
 .stockist.swiper-container{width:49%;float:left;}
-.stockist_text{float:left;width:51%;background-color:#ddd;padding:60px;box-sizing:border-box;}
+.stockist_text{float:left;width:51%;background-color:#f4f4f4;padding:80px;box-sizing:border-box;}
 .stockist_text p{margin-bottom:10px;}
 .stockist_text p:first-child{font-size:18px;padding-bottom:20px;font-weight:700;}
 .stockist_text p:last-child{margin-top:30px;}
@@ -208,7 +208,23 @@ a:hover {text-decoration:none ; color:#111}
 
 
 
+.stockist_online_list{width:100%;}
+.stockist_path{width:100%;text-align:center;font-size:20px;font-weight:700;margin:50px 0;}
+.stockist_online_wrap{background-color:#eeede8;padding:30px 0 60px;}
+.stockist_online_wrap_list{text-align:center;}
+.stockist_online_wrap_list ul {width:60%;display:inline-block;width:60%;line-height:1.6em;padding:1.5% 0;border-bottom:1px solid #9fa0a0;margin:0 auto;}
+.stockist_online_wrap_list ul li{width:25%;padding:0px 40px;vertical-align:middle;float:left;text-align:left;}
+.stockist_online_wrap_list ul li .online_adress{width:35%;text-align:center;}
+.stockist_online_wrap_list ul li .offline_tel{width:30%;text-align:right;}
+.stockist_online_wrap_list ul li .online_link{width:25%;}
+.stockist_online_wrap_list ul li:last-child{text-align:right;}
 
+.online_link a{color:#1d5b8f;}
+
+.stockist_global{}
+.stockist_global_banner{width:100%;text-align:center;font-weight:700;margin:100px 0;font-size:20px;}
+.stockist_global_img{width:100%;text-align:center;margin-bottom:100px;}
+.stockist_global_img img{width:80%;}
 
 
 
