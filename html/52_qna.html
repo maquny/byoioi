@@ -17,9 +17,12 @@
 </head>
 <style>
 
-.customer_center{padding:5% 15%;line-height:1.6em;background: #EFEDE9;}
+.customer_center{padding:3% 15%;line-height:1.6em;background: #EFEDE9;}
 .customer_box{}
-.customer_title{text-align:center;font-weight:700;}
+.customer_title{width:100%;text-align:center;font-weight:700;}
+.customer_title ul{float:left;width:100%;}
+.customer_title ul li{width:33%;display:inline-block;font-size:18px;}
+.customer_title ul li:first-child{text-decoration:underline;font-weight:700;}
 
 .customer_box ul{padding-left:0px;margin-top:100px;}
 
@@ -59,9 +62,13 @@
 	<div class="container">
 		<div class="customer_center">
 			<div class="customer_box">
-				
-				<p class="customer_title en">FAQ</p>
-
+				<div class="customer_title">
+					<ul>
+						<li>자주묻는질문</li>
+						<li>문의하기</li>
+						<li>공지사항</li>
+					</ul>
+				</div>
 				<ul class="help_category">
 					<li class="active"><a href="">주문결제</a></li>
 					<li><a href="">배송관련</a></li>
@@ -73,7 +80,7 @@
 				<ul class="help_category_qa">
 					<li>
 						<div class="question">
-							"비회원 주문은 어떻게 하나요?"
+							비회원 주문은 어떻게 하나요?
 						</div>
 						<div class="answer">
 							<p>O!Oi는 비회원 주문은 어렵습니다.</p>
@@ -82,7 +89,7 @@
 					</li>
 					<li>
 						<div class="question">
-							"현금 영수증 신청하고 싶습니다."
+							현금 영수증 신청하고 싶습니다.
 						</div>
 						<div class="answer">
 							<p>무통장 입금 또는 실시간 계좌이체 시 현금영수증 발행이 가능합니다.</p>
